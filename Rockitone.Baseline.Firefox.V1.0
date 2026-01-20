@@ -1,7 +1,7 @@
 {
 "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/groupPolicyConfigurations(assignments())/$entity",
 "createdDateTime": "2026-01-19T08:21:51.1278565Z",
-"displayName": "Rockitone.Baseline.Firefox.V1",
+"displayName": "Rockitone.Baseline.Firefox.V1.0",
 "description": "",
 "roleScopeTagIds": [
 "0"
