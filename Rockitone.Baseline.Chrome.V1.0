@@ -1,0 +1,1383 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies/$entity",
+  "createdDateTime": "2026-01-19T14:28:08.682974Z",
+  "creationSource": null,
+  "description": "",
+  "lastModifiedDateTime": "2026-01-20T09:56:06.7253105Z",
+  "name": "Rockitone.Baseline.Chrome.V1.0",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 83,
+  "technologies": "mdm",
+  "id": "310a2d9c-f535-4e6b-b616-2a1bdbab9279",
+  "templateReference": {
+    "templateId": "",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments": [],
+  "settings": [
+    {
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions_downloadrestrictions",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_downloadrestrictions_downloadrestrictions_2",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "1",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_fileordirectorypickerwithoutgestureallowedfororigins",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_fileordirectorypickerwithoutgestureallowedfororigins_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "2",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_mediaroutercastallowallips",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_mediaroutercastallowallips_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "3",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_browsernetworktimequeriesenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_browsernetworktimequeriesenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "4",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_remotedebuggingallowed",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_remotedebuggingallowed_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "5",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_domainreliabilityallowed",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_domainreliabilityallowed_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "6",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_audiosandboxenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_audiosandboxenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "7",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_userfeedbackallowed",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_userfeedbackallowed_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "8",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_allowwebauthnwithbrokentlscerts",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_allowwebauthnwithbrokentlscerts_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "9",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_paymentmethodqueryenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_paymentmethodqueryenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "10",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_promptfordownloadlocation",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_promptfordownloadlocation_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "11",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_blockthirdpartycookies",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_blockthirdpartycookies_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "12",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_clipboardallowedforurls",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_clipboardallowedforurls_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "13",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_pdflocalfileaccessallowedfordomains",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_pdflocalfileaccessallowedfordomains_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "14",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_clipboardblockedforurls",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_clipboardblockedforurls_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "15",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultinsecurecontentsetting",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultinsecurecontentsetting_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultinsecurecontentsetting_defaultinsecurecontentsetting",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultinsecurecontentsetting_defaultinsecurecontentsetting_2",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "16",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_defaultclipboardsetting",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_defaultclipboardsetting_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_defaultclipboardsetting_defaultclipboardsetting",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~contentsettings_defaultclipboardsetting_defaultclipboardsetting_2",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "17",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultgeolocationsetting",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultgeolocationsetting_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultgeolocationsetting_defaultgeolocationsetting",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~contentsettings_defaultgeolocationsetting_defaultgeolocationsetting_2",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "18",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_backgroundmodeenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_backgroundmodeenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "19",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_chromecleanupreportingenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_chromecleanupreportingenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "20",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_chromevariations",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_chromevariations_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_chromevariations_chromevariations",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_chromevariations_chromevariations_0",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "21",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_certificatetransparencyenforcementdisabledforlegacycas",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_certificatetransparencyenforcementdisabledforlegacycas_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "22",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_certificatetransparencyenforcementdisabledforcas",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_certificatetransparencyenforcementdisabledforcas_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "23",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_certificatetransparencyenforcementdisabledforurls",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_certificatetransparencyenforcementdisabledforurls_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "24",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_disablesafebrowsingproceedanyway",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_disablesafebrowsingproceedanyway_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "25",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_savingbrowserhistorydisabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_savingbrowserhistorydisabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "26",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_syncdisabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_syncdisabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "27",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_dnsinterceptionchecksenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_dnsinterceptionchecksenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "28",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_alternateerrorpagesenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_alternateerrorpagesenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "29",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_autofilladdressenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_autofilladdressenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "30",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_autofillcreditcardenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_autofillcreditcardenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "31",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_httpsupgradesenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_httpsupgradesenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "32",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_componentupdatesenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_componentupdatesenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "33",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdeletingbrowserhistory",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_allowdeletingbrowserhistory_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "34",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_globallyscopehttpauthcacheenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_globallyscopehttpauthcacheenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "35",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_googlesearchsidepanelenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_googlesearchsidepanelenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "36",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_networkpredictionoptions",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_networkpredictionoptions_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_networkpredictionoptions_networkpredictionoptions",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_networkpredictionoptions_networkpredictionoptions_2",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "37",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_enableonlinerevocationchecks",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_enableonlinerevocationchecks_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "38",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_spellcheckserviceenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_spellcheckserviceenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "39",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_rendererappcontainerenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_rendererappcontainerenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "40",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_metricsreportingenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_metricsreportingenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "41",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_safebrowsingfortrustedsourcesenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_safebrowsingfortrustedsourcesenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "42",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_commandlineflagsecuritywarningsenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_commandlineflagsecuritywarningsenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "43",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_strictmimetypecheckforworkerscriptsenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_strictmimetypecheckforworkerscriptsenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "44",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_thirdpartyblockingenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_thirdpartyblockingenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "45",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_encryptedclienthelloenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_encryptedclienthelloenabled_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "46",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_urlkeyedanonymizeddatacollectionenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_urlkeyedanonymizeddatacollectionenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "47",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_enterprisehardwareplatformapienabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_enterprisehardwareplatformapienabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "48",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_forceephemeralprofiles",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_forceephemeralprofiles_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "49",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_blockexternalextensions",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_blockexternalextensions_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "50",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensionallowedtypes",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensionallowedtypes_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensionallowedtypes_extensionallowedtypesdesc",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "extension"
+                },
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "hosted_app"
+                },
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": " platform_app"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "51",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallblocklist",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallblocklist_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~extensions_extensioninstallblocklist_extensioninstallblocklistdesc",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "*"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "52",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~extensions_extensionunpublishedavailability",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~extensions_extensionunpublishedavailability_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "53",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~googlecast_enablemediarouter",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~googlecast_enablemediarouter_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "54",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~httpauthentication_allowcrossoriginauthprompt",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~httpauthentication_allowcrossoriginauthprompt_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "55",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importautofillformdata",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importautofillformdata_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "56",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importhomepage",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importhomepage_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "57",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importsavedpasswords",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importsavedpasswords_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "58",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importsearchengine",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_importsearchengine_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "59",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_enterpriseprofilecreationkeepbrowsingdata",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome_enterpriseprofilecreationkeepbrowsingdata_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "60",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_hstspolicybypasslist",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_hstspolicybypasslist_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "61",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_synctypeslistdisabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_synctypeslistdisabled_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_synctypeslistdisabled_synctypeslistdisableddesc",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                  "settingValueTemplateReference": null,
+                  "value": "passwords"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "62",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~activedirectorymanagement_cloudapauthenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~activedirectorymanagement_cloudapauthenabled_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~activedirectorymanagement_cloudapauthenabled_cloudapauthenabled",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~activedirectorymanagement_cloudapauthenabled_cloudapauthenabled_1",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "63",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotification",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotification_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotification_relaunchnotification",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotification_relaunchnotification_2",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "64",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_overridesecurityrestrictionsoninsecureorigin",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_overridesecurityrestrictionsoninsecureorigin_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "65",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordmanagerenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~passwordmanager_passwordmanagerenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "66",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~printing_cloudprintproxyenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~printing_cloudprintproxyenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "67",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_proxysettings",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_proxysettings_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_proxysettings_proxysettings",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "auto_detect"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "68",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowremoteaccessconnections_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "69",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowuiaccessforremoteassistance",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowuiaccessforremoteassistance_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "70",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostclientdomainlist",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostclientdomainlist_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "71",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostrequirecurtain",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostrequirecurtain_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "72",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostfirewalltraversal",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostfirewalltraversal_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "73",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowclientpairing",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowclientpairing_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "74",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowrelayedconnection",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~remoteaccess_remoteaccesshostallowrelayedconnection_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "75",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~removedpolicies_insecurehashesintlshandshakesenabled",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev141~policy~googlechrome~removedpolicies_insecurehashesintlshandshakesenabled_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "76",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_siteperprocess",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_siteperprocess_1",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "77",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingallowlistdomains",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingallowlistdomains_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "78",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel_safebrowsingprotectionlevel",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "choiceSettingValue": {
+                "settingValueTemplateReference": null,
+                "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome~safebrowsing_safebrowsingprotectionlevel_safebrowsingprotectionlevel_1",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "79",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_diskcachesize",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_diskcachesize_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_diskcachesize_diskcachesize",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                "settingValueTemplateReference": null,
+                "value": 250609664
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "80",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotificationperiod",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotificationperiod_1",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_relaunchnotificationperiod_relaunchnotificationperiod",
+              "settingInstanceTemplateReference": null,
+              "auditRuleInformation": null,
+              "simpleSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationIntegerSettingValue",
+                "settingValueTemplateReference": null,
+                "value": 86400000
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "81",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_lookalikewarningallowlistdomains",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_lookalikewarningallowlistdomains_0",
+          "children": []
+        }
+      }
+    },
+    {
+      "id": "82",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_webrtclocalipsallowedurls",
+        "settingInstanceTemplateReference": null,
+        "auditRuleInformation": null,
+        "choiceSettingValue": {
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_chromeintunev1~policy~googlechrome_webrtclocalipsallowedurls_0",
+          "children": []
+        }
+      }
+    }
+  ]
+}
