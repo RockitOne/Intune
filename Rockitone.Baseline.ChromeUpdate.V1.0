@@ -1,0 +1,31 @@
+{
+"@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/groupPolicyConfigurations(assignments())/$entity",
+"createdDateTime": "2026-01-20T08:11:36.4412724Z",
+"displayName": "Rockitone.Baseline.ChromeUpdate.V1.0",
+"description": "Settings that are not in the Setting catalog",
+"roleScopeTagIds": [
+"0"
+],
+"policyConfigurationIngestionType": "unknown",
+"id": "ce7fd959-5e2e-4796-93fd-cc6168bc9441",
+"lastModifiedDateTime": "2026-01-20T09:56:38.9208082Z",
+"assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/groupPolicyConfigurations('ce7fd959-5e2e-4796-93fd-cc6168bc9441')/assignments",
+"assignments": [],
+"policyBackupValues": [
+{
+"definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('069094c4-d8fd-42e0-8d53-4b8f3e4100ad')",
+"presentationValues": [
+{
+"@odata.type": "#microsoft.graph.groupPolicyPresentationValueText",
+"value": "1",
+"presentation@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('069094c4-d8fd-42e0-8d53-4b8f3e4100ad')/presentations('c59b4fef-7026-4258-aea3-e639752a2dfd')"
+}
+],
+"enabled": true
+},
+{
+"enabled": true,
+"definition@odata.bind": "https://graph.microsoft.com/beta/deviceManagement/groupPolicyDefinitions('2119d48b-73e0-4b80-9533-fc4929a7f4dc')"
+}
+]
+}
